@@ -1,3 +1,6 @@
 Test = "Hello world"
 
-print(Test)
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Mad1 Project"))
